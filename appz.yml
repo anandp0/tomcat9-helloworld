@@ -11,7 +11,7 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: anand/DEV
+  context: anandp0/DEV
   replicas: 1
   port: 
    - 8080
@@ -26,4 +26,4 @@ properties:
   download: false
   random : true
   nano : 83
-  revision: 3
+  revision: 1
